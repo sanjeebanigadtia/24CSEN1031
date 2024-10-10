@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+   int a,b,sum=0;
+   printf("enter any digit to reverse=");
+   scanf("%d",&a);
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       sum=sum*10+b;
+   }
+   a=sum;
+   printf("\n after reverse:%d",a);
+   return 0;
+}
+
+
+#### OUTPUT #####
+enter any digit to reverse=1234
+
+ after reverse:4321
+
+=== Code Execution Successful ===
