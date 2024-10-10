@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+   int s,a,n,sum=0;
+   printf("enter digits=");
+   scanf("%d",&n);
+   s=n;
+   printf("sum=");
+   while(s>=1){
+       a=s%10;
+       s=s/10;
+       sum=sum+a;
+   }
+   printf("%d",sum);
+   return 0;
+}
+
+#### OUTPUT ####
+enter digits: 95
+sum=14
+
+=== Code Execution Successful ===
