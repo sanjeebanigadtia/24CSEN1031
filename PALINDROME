@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+   int s,a,n,sum=0;
+   printf("Enter digits to verify palindrome: ");
+   scanf("%d",&n);
+   s=n;
+   while(s>=1){
+       a=s%10;
+       s=s/10;
+       sum=sum*10+a;
+   }
+   if(sum==n){
+       printf("\n digits is a palindrome ");
+   }
+   else{
+       printf("\n digits is not a palindrome");
+   }
+     return 0;
+}
+
+#### OUTPUT ####
+-> Enter digits to verify palindrome: 232
+      digits is a palindrome 
