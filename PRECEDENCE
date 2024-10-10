@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    int a = 9, b = 5, c;
+    c = a + b * 3;
+    printf("Value of c = %d\n", c);
+    
+    c = a / b * 2;
+    printf("Value of c = %d\n", c);
+    
+    c = 5 % b * a;
+    printf("Value of c = %d\n", c);
+
+    return 0;
+}
+
+### OUTPUT ###
+Value of c = 24
+Value of c = 2
+Value of c = 0
+
+
+=== Code Execution Successful ===
