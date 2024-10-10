@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+   int s,a,sum=0,t;
+   printf("Enter digits=");
+   scanf("%d",&s); 
+   t=s; 
+   while(s>=1){
+       a=s%10;
+       sum= sum+(a*a*a);
+    s=s/10;
+   }
+   if(sum==t){
+       printf("\n digits is ARMSTRONG ");
+   }
+   else{
+       printf("\n digits is NOT ARMSTRONG ");
+   }
+     return 0;
+}
+
+#### OUTPUT ####
+Enter digits=370
+
+ digits is ARMSTRONG 
+
+=== Code Execution Successful ===
