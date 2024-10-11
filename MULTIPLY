@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+   int a;
+   printf("enter a value for a=");
+   scanf("%d",&a);
+   printf("2*a= %d\n",2*a);
+   return 0;
+}
+
+#### OUTPUT ####
+enter a value for a=95
+2*a= 190
+
+
+=== Code Execution Successful ===
