@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+    int a = 9, b= 5;
+    
+    // Arithmetic Operataors
+    printf("Arithmetic Operataors\n");
+    printf("%d + %d = %d\n", a, b, a+b);
+    printf("%d - %d = %d\n", a, b, a-b);
+    printf("%d * %d = %d\n", a, b, a*b);
+    printf("%d / %d = %d\n", a, b, (a/b));
+    printf("%d %% %d = %d\n\n", a, b, a%b);
+     (a < b) ? printf("\na is greater than b"): printf("\nb is less than a");
+    
+    return 0;
+}
+
+####OUTPUT####
+9 + 5 = 14
+9 - 5 = 4
+9 * 5 = 45
+9 / 5 = 1
+9 % 5 = 4
+b is less than a
+
+=== Code Execution Successful ===
