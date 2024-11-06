@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a = 9;
+    printf("Decimal representation: %d \nOctal representation: %o\nHexademical representation: %x", a, a, a);
+
+    return 0;
+}
+
+####OUTPUT####
+Decimal representation: 9 
+Octal representation: 11
+Hexademical representation: 9
+
+=== Code Execution Successful ===
