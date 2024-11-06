@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+    int a = 9, b= 5;
+    
+  printf("Logical Operataors\n");
+    printf("AND %d && %d = %d\n", a, b, a && b);
+    printf("OR %d || %d = %d\n", a, b, a || b);
+    printf("NOT %d = %d\n\n", a, !a);
+ (a < b) ? printf("\na is greater than b"): printf("\nb is less than a");
+    
+    return 0;
+}
+
+####OUTPUT####
+Logical Operataors
+AND 9 && 5 = 1
+OR 9 || 5 = 1
+NOT 9 = 0
+
+
+b is less than a
+
+=== Code Execution Successful ===
