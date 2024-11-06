@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    int a = 9, b= 5;
+    
+    printf("Relational Operataors\n");
+    printf("%d < %d = %d\n", a, b, a<b);
+    printf("%d > %d = %d\n", a, b, a>b);
+    printf("%d == %d = %d\n", a, b, a==b);
+    printf("%d != %d = %d\n\n", a, b, a!=b);
+
+     (a < b) ? printf("\na is greater than b"): printf("\nb is less than a");
+    
+    return 0;
+}
+
+####OUTPUT####
+Relational Operataors
+9 < 5 = 0
+9 > 5 = 1
+9 == 5 = 0
+9 != 5 = 1
+
+
+b is less than a
+
+=== Code Execution Successful ===
