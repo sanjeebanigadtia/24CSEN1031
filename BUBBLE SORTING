@@ -1,0 +1,36 @@
+# include <stdio.h>
+# define SIZE 5
+int main() {
+    int arr[SIZE] = {95,11,55,59,51};
+    
+    printf("Original array: \n");
+    for (int i = 0; i < SIZE; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE-i-1; j++) {
+            if (arr[j] > arr[j+1]) {
+
+  int temp = arr[j];
+  arr[j] = arr[j+1];
+  arr[j+1] = temp;
+            }
+        }
+    }
+    
+    printf("Sorted array: \n");
+    for (int i = 0; i < SIZE; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+    return 0;
+}
+
+####OUTPUT####
+Original array: 
+95 11 55 59 51 
+Sorted array: 
+11 51 55 59 95 
+
+
+=== Code Execution Successful ===
